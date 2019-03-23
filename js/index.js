@@ -11,5 +11,5 @@ var secureServer = https.createServer(options, app).listen(httpsPort, () => {
     console.log(">> CentraliZr listening at port " + httpsPort);  
 });  
 app.get('/certificateLab', function(req, res) {  
-    res.sendFile('C:/Users/nasty/Desktop/3/BPOMP/lab3/index.html');  
+    res.sendFile('C:/Users/nasty/Desktop/3/BPOMP/lab3/Certificate/index.html');  
 });  
